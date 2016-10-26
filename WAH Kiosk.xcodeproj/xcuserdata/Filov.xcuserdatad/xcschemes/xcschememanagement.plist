@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WyndhAtHome.xcscheme</key>
+		<key>WAH Kiosk.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7E2760701DC0E5620049563A</key>
+		<key>7E15997D1DC1018400262AE9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

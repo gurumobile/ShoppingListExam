@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E2760701DC0E5620049563A"
-               BuildableName = "WyndhAtHome.app"
-               BlueprintName = "WyndhAtHome"
-               ReferencedContainer = "container:WyndhAtHome.xcodeproj">
+               BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+               BuildableName = "WAH Kiosk.app"
+               BlueprintName = "WAH Kiosk"
+               ReferencedContainer = "container:WAH Kiosk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E2760701DC0E5620049563A"
-            BuildableName = "WyndhAtHome.app"
-            BlueprintName = "WyndhAtHome"
-            ReferencedContainer = "container:WyndhAtHome.xcodeproj">
+            BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+            BuildableName = "WAH Kiosk.app"
+            BlueprintName = "WAH Kiosk"
+            ReferencedContainer = "container:WAH Kiosk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E2760701DC0E5620049563A"
-            BuildableName = "WyndhAtHome.app"
-            BlueprintName = "WyndhAtHome"
-            ReferencedContainer = "container:WyndhAtHome.xcodeproj">
+            BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+            BuildableName = "WAH Kiosk.app"
+            BlueprintName = "WAH Kiosk"
+            ReferencedContainer = "container:WAH Kiosk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E2760701DC0E5620049563A"
-            BuildableName = "WyndhAtHome.app"
-            BlueprintName = "WyndhAtHome"
-            ReferencedContainer = "container:WyndhAtHome.xcodeproj">
+            BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+            BuildableName = "WAH Kiosk.app"
+            BlueprintName = "WAH Kiosk"
+            ReferencedContainer = "container:WAH Kiosk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

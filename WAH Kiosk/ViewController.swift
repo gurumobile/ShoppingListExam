@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  WyndhAtHome
+//  WAH Kiosk
 //
 //  Created by Bogdan on 10/26/16.
 //  Copyright © 2016 Bogdan. All rights reserved.

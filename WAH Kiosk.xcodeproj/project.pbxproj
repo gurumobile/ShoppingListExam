@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E2760751DC0E5620049563A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2760741DC0E5620049563A /* AppDelegate.swift */; };
-		7E2760771DC0E5620049563A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2760761DC0E5620049563A /* ViewController.swift */; };
-		7E27607A1DC0E5620049563A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2760781DC0E5620049563A /* Main.storyboard */; };
-		7E27607C1DC0E5620049563A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27607B1DC0E5620049563A /* Assets.xcassets */; };
-		7E27607F1DC0E5620049563A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27607D1DC0E5620049563A /* LaunchScreen.storyboard */; };
-		7E2760881DC0E5A10049563A /* LGProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2760871DC0E5A10049563A /* LGProgressHUD.swift */; };
+		7E1599821DC1018400262AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1599811DC1018400262AE9 /* AppDelegate.swift */; };
+		7E1599841DC1018400262AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1599831DC1018400262AE9 /* ViewController.swift */; };
+		7E1599871DC1018400262AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1599851DC1018400262AE9 /* Main.storyboard */; };
+		7E1599891DC1018400262AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1599881DC1018400262AE9 /* Assets.xcassets */; };
+		7E15998C1DC1018400262AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E15998A1DC1018400262AE9 /* LaunchScreen.storyboard */; };
+		7E1599951DC101C000262AE9 /* LGProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1599941DC101C000262AE9 /* LGProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E2760711DC0E5620049563A /* WyndhAtHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyndhAtHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E2760741DC0E5620049563A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E2760761DC0E5620049563A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E2760791DC0E5620049563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E27607B1DC0E5620049563A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E27607E1DC0E5620049563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E2760801DC0E5620049563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E2760871DC0E5A10049563A /* LGProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGProgressHUD.swift; sourceTree = "<group>"; };
+		7E15997E1DC1018400262AE9 /* WAH Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAH Kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1599811DC1018400262AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E1599831DC1018400262AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E1599861DC1018400262AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1599881DC1018400262AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E15998B1DC1018400262AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E15998D1DC1018400262AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1599941DC101C000262AE9 /* LGProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E27606E1DC0E5620049563A /* Frameworks */ = {
+		7E15997B1DC1018400262AE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E2760681DC0E5620049563A = {
+		7E1599751DC1018400262AE9 = {
 			isa = PBXGroup;
 			children = (
-				7E2760731DC0E5620049563A /* WyndhAtHome */,
-				7E2760721DC0E5620049563A /* Products */,
+				7E1599801DC1018400262AE9 /* WAH Kiosk */,
+				7E15997F1DC1018400262AE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7E2760721DC0E5620049563A /* Products */ = {
+		7E15997F1DC1018400262AE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E2760711DC0E5620049563A /* WyndhAtHome.app */,
+				7E15997E1DC1018400262AE9 /* WAH Kiosk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E2760731DC0E5620049563A /* WyndhAtHome */ = {
+		7E1599801DC1018400262AE9 /* WAH Kiosk */ = {
 			isa = PBXGroup;
 			children = (
-				7E2760861DC0E5850049563A /* HUD */,
-				7E2760741DC0E5620049563A /* AppDelegate.swift */,
-				7E2760761DC0E5620049563A /* ViewController.swift */,
-				7E2760781DC0E5620049563A /* Main.storyboard */,
-				7E27607B1DC0E5620049563A /* Assets.xcassets */,
-				7E27607D1DC0E5620049563A /* LaunchScreen.storyboard */,
-				7E2760801DC0E5620049563A /* Info.plist */,
+				7E1599931DC101A400262AE9 /* HUD */,
+				7E1599811DC1018400262AE9 /* AppDelegate.swift */,
+				7E1599831DC1018400262AE9 /* ViewController.swift */,
+				7E1599851DC1018400262AE9 /* Main.storyboard */,
+				7E1599881DC1018400262AE9 /* Assets.xcassets */,
+				7E15998A1DC1018400262AE9 /* LaunchScreen.storyboard */,
+				7E15998D1DC1018400262AE9 /* Info.plist */,
 			);
-			path = WyndhAtHome;
+			path = "WAH Kiosk";
 			sourceTree = "<group>";
 		};
-		7E2760861DC0E5850049563A /* HUD */ = {
+		7E1599931DC101A400262AE9 /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				7E2760871DC0E5A10049563A /* LGProgressHUD.swift */,
+				7E1599941DC101C000262AE9 /* LGProgressHUD.swift */,
 			);
 			path = HUD;
 			sourceTree = "<group>";
@@ -78,40 +78,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E2760701DC0E5620049563A /* WyndhAtHome */ = {
+		7E15997D1DC1018400262AE9 /* WAH Kiosk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E2760831DC0E5620049563A /* Build configuration list for PBXNativeTarget "WyndhAtHome" */;
+			buildConfigurationList = 7E1599901DC1018400262AE9 /* Build configuration list for PBXNativeTarget "WAH Kiosk" */;
 			buildPhases = (
-				7E27606D1DC0E5620049563A /* Sources */,
-				7E27606E1DC0E5620049563A /* Frameworks */,
-				7E27606F1DC0E5620049563A /* Resources */,
+				7E15997A1DC1018400262AE9 /* Sources */,
+				7E15997B1DC1018400262AE9 /* Frameworks */,
+				7E15997C1DC1018400262AE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WyndhAtHome;
-			productName = WyndhAtHome;
-			productReference = 7E2760711DC0E5620049563A /* WyndhAtHome.app */;
+			name = "WAH Kiosk";
+			productName = "WAH Kiosk";
+			productReference = 7E15997E1DC1018400262AE9 /* WAH Kiosk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7E2760691DC0E5620049563A /* Project object */ = {
+		7E1599761DC1018400262AE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Bogdan;
 				TargetAttributes = {
-					7E2760701DC0E5620049563A = {
+					7E15997D1DC1018400262AE9 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 7E27606C1DC0E5620049563A /* Build configuration list for PBXProject "WyndhAtHome" */;
+			buildConfigurationList = 7E1599791DC1018400262AE9 /* Build configuration list for PBXProject "WAH Kiosk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,55 +119,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 7E2760681DC0E5620049563A;
-			productRefGroup = 7E2760721DC0E5620049563A /* Products */;
+			mainGroup = 7E1599751DC1018400262AE9;
+			productRefGroup = 7E15997F1DC1018400262AE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E2760701DC0E5620049563A /* WyndhAtHome */,
+				7E15997D1DC1018400262AE9 /* WAH Kiosk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7E27606F1DC0E5620049563A /* Resources */ = {
+		7E15997C1DC1018400262AE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E27607F1DC0E5620049563A /* LaunchScreen.storyboard in Resources */,
-				7E27607C1DC0E5620049563A /* Assets.xcassets in Resources */,
-				7E27607A1DC0E5620049563A /* Main.storyboard in Resources */,
+				7E15998C1DC1018400262AE9 /* LaunchScreen.storyboard in Resources */,
+				7E1599891DC1018400262AE9 /* Assets.xcassets in Resources */,
+				7E1599871DC1018400262AE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7E27606D1DC0E5620049563A /* Sources */ = {
+		7E15997A1DC1018400262AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2760771DC0E5620049563A /* ViewController.swift in Sources */,
-				7E2760881DC0E5A10049563A /* LGProgressHUD.swift in Sources */,
-				7E2760751DC0E5620049563A /* AppDelegate.swift in Sources */,
+				7E1599841DC1018400262AE9 /* ViewController.swift in Sources */,
+				7E1599951DC101C000262AE9 /* LGProgressHUD.swift in Sources */,
+				7E1599821DC1018400262AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E2760781DC0E5620049563A /* Main.storyboard */ = {
+		7E1599851DC1018400262AE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E2760791DC0E5620049563A /* Base */,
+				7E1599861DC1018400262AE9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7E27607D1DC0E5620049563A /* LaunchScreen.storyboard */ = {
+		7E15998A1DC1018400262AE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E27607E1DC0E5620049563A /* Base */,
+				7E15998B1DC1018400262AE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7E2760811DC0E5620049563A /* Debug */ = {
+		7E15998E1DC1018400262AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		7E2760821DC0E5620049563A /* Release */ = {
+		7E15998F1DC1018400262AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,25 +268,25 @@
 			};
 			name = Release;
 		};
-		7E2760841DC0E5620049563A /* Debug */ = {
+		7E1599911DC1018400262AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WyndhAtHome/Info.plist;
+				INFOPLIST_FILE = "WAH Kiosk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bogdanBetaTest.WyndhAtHome;
+				PRODUCT_BUNDLE_IDENTIFIER = "bogdanBetaTest.WAH-Kiosk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		7E2760851DC0E5620049563A /* Release */ = {
+		7E1599921DC1018400262AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WyndhAtHome/Info.plist;
+				INFOPLIST_FILE = "WAH Kiosk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bogdanBetaTest.WyndhAtHome;
+				PRODUCT_BUNDLE_IDENTIFIER = "bogdanBetaTest.WAH-Kiosk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -295,24 +295,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E27606C1DC0E5620049563A /* Build configuration list for PBXProject "WyndhAtHome" */ = {
+		7E1599791DC1018400262AE9 /* Build configuration list for PBXProject "WAH Kiosk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E2760811DC0E5620049563A /* Debug */,
-				7E2760821DC0E5620049563A /* Release */,
+				7E15998E1DC1018400262AE9 /* Debug */,
+				7E15998F1DC1018400262AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E2760831DC0E5620049563A /* Build configuration list for PBXNativeTarget "WyndhAtHome" */ = {
+		7E1599901DC1018400262AE9 /* Build configuration list for PBXNativeTarget "WAH Kiosk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E2760841DC0E5620049563A /* Debug */,
-				7E2760851DC0E5620049563A /* Release */,
+				7E1599911DC1018400262AE9 /* Debug */,
+				7E1599921DC1018400262AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7E2760691DC0E5620049563A /* Project object */;
+	rootObject = 7E1599761DC1018400262AE9 /* Project object */;
 }
