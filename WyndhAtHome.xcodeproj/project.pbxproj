@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2760751DC0E5620049563A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2760741DC0E5620049563A /* AppDelegate.swift */; };
+		7E2760771DC0E5620049563A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2760761DC0E5620049563A /* ViewController.swift */; };
+		7E27607A1DC0E5620049563A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2760781DC0E5620049563A /* Main.storyboard */; };
+		7E27607C1DC0E5620049563A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E27607B1DC0E5620049563A /* Assets.xcassets */; };
+		7E27607F1DC0E5620049563A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E27607D1DC0E5620049563A /* LaunchScreen.storyboard */; };
+		7E2760881DC0E5A10049563A /* LGProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2760871DC0E5A10049563A /* LGProgressHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E2760711DC0E5620049563A /* WyndhAtHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyndhAtHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2760741DC0E5620049563A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E2760761DC0E5620049563A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E2760791DC0E5620049563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E27607B1DC0E5620049563A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E27607E1DC0E5620049563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E2760801DC0E5620049563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2760871DC0E5A10049563A /* LGProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGProgressHUD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E27606E1DC0E5620049563A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E2760681DC0E5620049563A = {
+			isa = PBXGroup;
+			children = (
+				7E2760731DC0E5620049563A /* WyndhAtHome */,
+				7E2760721DC0E5620049563A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E2760721DC0E5620049563A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E2760711DC0E5620049563A /* WyndhAtHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E2760731DC0E5620049563A /* WyndhAtHome */ = {
+			isa = PBXGroup;
+			children = (
+				7E2760861DC0E5850049563A /* HUD */,
+				7E2760741DC0E5620049563A /* AppDelegate.swift */,
+				7E2760761DC0E5620049563A /* ViewController.swift */,
+				7E2760781DC0E5620049563A /* Main.storyboard */,
+				7E27607B1DC0E5620049563A /* Assets.xcassets */,
+				7E27607D1DC0E5620049563A /* LaunchScreen.storyboard */,
+				7E2760801DC0E5620049563A /* Info.plist */,
+			);
+			path = WyndhAtHome;
+			sourceTree = "<group>";
+		};
+		7E2760861DC0E5850049563A /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				7E2760871DC0E5A10049563A /* LGProgressHUD.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E2760701DC0E5620049563A /* WyndhAtHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2760831DC0E5620049563A /* Build configuration list for PBXNativeTarget "WyndhAtHome" */;
+			buildPhases = (
+				7E27606D1DC0E5620049563A /* Sources */,
+				7E27606E1DC0E5620049563A /* Frameworks */,
+				7E27606F1DC0E5620049563A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WyndhAtHome;
+			productName = WyndhAtHome;
+			productReference = 7E2760711DC0E5620049563A /* WyndhAtHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E2760691DC0E5620049563A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Bogdan;
+				TargetAttributes = {
+					7E2760701DC0E5620049563A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E27606C1DC0E5620049563A /* Build configuration list for PBXProject "WyndhAtHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E2760681DC0E5620049563A;
+			productRefGroup = 7E2760721DC0E5620049563A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E2760701DC0E5620049563A /* WyndhAtHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E27606F1DC0E5620049563A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27607F1DC0E5620049563A /* LaunchScreen.storyboard in Resources */,
+				7E27607C1DC0E5620049563A /* Assets.xcassets in Resources */,
+				7E27607A1DC0E5620049563A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E27606D1DC0E5620049563A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2760771DC0E5620049563A /* ViewController.swift in Sources */,
+				7E2760881DC0E5A10049563A /* LGProgressHUD.swift in Sources */,
+				7E2760751DC0E5620049563A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E2760781DC0E5620049563A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2760791DC0E5620049563A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E27607D1DC0E5620049563A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E27607E1DC0E5620049563A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E2760811DC0E5620049563A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7E2760821DC0E5620049563A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E2760841DC0E5620049563A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WyndhAtHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bogdanBetaTest.WyndhAtHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E2760851DC0E5620049563A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WyndhAtHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bogdanBetaTest.WyndhAtHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E27606C1DC0E5620049563A /* Build configuration list for PBXProject "WyndhAtHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2760811DC0E5620049563A /* Debug */,
+				7E2760821DC0E5620049563A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2760831DC0E5620049563A /* Build configuration list for PBXNativeTarget "WyndhAtHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2760841DC0E5620049563A /* Debug */,
+				7E2760851DC0E5620049563A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E2760691DC0E5620049563A /* Project object */;
+}
