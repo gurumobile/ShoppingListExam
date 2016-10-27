@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -12,10 +13,40 @@
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HomeVC" id="i5M-Pr-FkT">
+        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HomeVC" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gSl-GN-qeA">
+                    <subviews>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="tou-fg-gIY">
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                            <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.9244881466" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="tou-fg-gIY" firstAttribute="centerY" secondItem="gSl-GN-qeA" secondAttribute="centerY" id="RDE-eo-rlH"/>
+                        <constraint firstItem="tou-fg-gIY" firstAttribute="centerX" secondItem="gSl-GN-qeA" secondAttribute="centerX" id="tfo-FT-6UX"/>
+                    </constraints>
+                </view>
+                <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHM-Py-WaF">
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XHM-Py-WaF" firstAttribute="top" secondItem="gSl-GN-qeA" secondAttribute="bottom" id="H6H-Hk-Jk5"/>
+                <constraint firstItem="gSl-GN-qeA" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.09" id="UML-xs-gNq"/>
+                <constraint firstAttribute="trailing" secondItem="XHM-Py-WaF" secondAttribute="trailing" id="ZFI-9P-Bkm"/>
+                <constraint firstAttribute="trailing" secondItem="gSl-GN-qeA" secondAttribute="trailing" id="f85-uX-7Lb"/>
+                <constraint firstItem="XHM-Py-WaF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ltw-rm-rJm"/>
+                <constraint firstItem="XHM-Py-WaF" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="sZh-yE-tyo"/>
+                <constraint firstItem="gSl-GN-qeA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uGn-ji-Og8"/>
+                <constraint firstItem="gSl-GN-qeA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zYm-NP-Ait"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="86.5"/>
         </view>
     </objects>
 </document>

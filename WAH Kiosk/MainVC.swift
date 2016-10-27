@@ -40,11 +40,16 @@ class MainVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        self.onSetFirstController()
         self.onTabbarInit()
     }
     
-    //MARK: - Button Initialize...
+    //MARK: - First ViewController Setting...
+    func onSetFirstController() {
+        self.onAddSubController(vc: homeVC)
+    }
     
+    //MARK: - Button Initialize...
     func onTabbarInit() {
         let origImage = UIImage(named: "round.png");
         let tintedImage = origImage?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
@@ -59,7 +64,6 @@ class MainVC: UIViewController {
     }
     
     //MARK: - Button Methods...
-    
     @IBAction func onNewsBtn(_ sender: AnyObject) {
         self.onAddSubController(vc: newsVC)
         self.onTabbarInit()
@@ -96,6 +100,7 @@ class MainVC: UIViewController {
         self.wishlistView.backgroundColor = UIColor(hexString: "CC0000", alpha: 0.6)
     }
     
+    //MARK: - Add SubControllers...
     func onAddSubController(vc: UIViewController) {
         //remove...
         vc.removeFromParentViewController()
@@ -104,7 +109,6 @@ class MainVC: UIViewController {
         //add...
         addChildViewController(vc)
         contentView.addSubview(vc.view)
-//        newsVC.view <- [Top(0), b]
         
         vc.view <- [
             Top(0).to(contentView),

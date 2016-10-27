@@ -15,16 +15,16 @@
                         <viewControllerLayoutGuide type="top" id="SGd-xa-IAv"/>
                         <viewControllerLayoutGuide type="bottom" id="Did-A3-xFf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="aDU-sl-LFH">
+                    <view key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="aDU-sl-LFH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVQ-6f-pFf">
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVQ-6f-pFf">
                                 <subviews>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCC-hK-9yd">
+                                    <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCC-hK-9yd">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8WY-3q-qP7">
+                                    <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8WY-3q-qP7">
                                         <subviews>
                                             <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="round.png" translatesAutoresizingMaskIntoConstraints="NO" id="ADV-vJ-BMX">
                                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="0.9244881466" colorSpace="calibratedRGB"/>
@@ -38,7 +38,7 @@
                                             <constraint firstItem="ADV-vJ-BMX" firstAttribute="leading" secondItem="8WY-3q-qP7" secondAttribute="leading" id="sHY-7T-5hh"/>
                                         </constraints>
                                     </view>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBH-ST-cFV">
+                                    <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBH-ST-cFV">
                                         <subviews>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3Z-3R-vWy">
                                                 <subviews>
@@ -307,7 +307,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.9244881466" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Did-A3-xFf" firstAttribute="top" secondItem="gVQ-6f-pFf" secondAttribute="bottom" id="0ND-zt-tUC"/>
                             <constraint firstAttribute="trailing" secondItem="gVQ-6f-pFf" secondAttribute="trailing" id="1FE-di-ezm"/>
