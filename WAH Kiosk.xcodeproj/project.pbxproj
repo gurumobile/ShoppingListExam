@@ -124,6 +124,12 @@
 		7EAF9C4E1DC132990009E706 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF9C4C1DC132990009E706 /* SettingsVC.swift */; };
 		7EAF9C4F1DC132990009E706 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF9C4D1DC132990009E706 /* SettingsVC.xib */; };
 		7EAF9C511DC139040009E706 /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF9C501DC139040009E706 /* round.png */; };
+		7EBA6A8F1DC23B9200686054 /* beddingSlide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA6A8A1DC23B9200686054 /* beddingSlide1.jpg */; };
+		7EBA6A901DC23B9200686054 /* beddingSlide2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA6A8B1DC23B9200686054 /* beddingSlide2.jpg */; };
+		7EBA6A911DC23B9200686054 /* beddingSlide3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA6A8C1DC23B9200686054 /* beddingSlide3.jpg */; };
+		7EBA6A921DC23B9200686054 /* beddingSlide4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA6A8D1DC23B9200686054 /* beddingSlide4.jpg */; };
+		7EBA6A931DC23B9200686054 /* beddingSlide5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA6A8E1DC23B9200686054 /* beddingSlide5.jpg */; };
+		7EBA6A961DC2487400686054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBA6A951DC2487400686054 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -246,6 +252,12 @@
 		7EAF9C4C1DC132990009E706 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		7EAF9C4D1DC132990009E706 /* SettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsVC.xib; path = ../Controller/SettingsVC.xib; sourceTree = "<group>"; };
 		7EAF9C501DC139040009E706 /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
+		7EBA6A8A1DC23B9200686054 /* beddingSlide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beddingSlide1.jpg; sourceTree = "<group>"; };
+		7EBA6A8B1DC23B9200686054 /* beddingSlide2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beddingSlide2.jpg; sourceTree = "<group>"; };
+		7EBA6A8C1DC23B9200686054 /* beddingSlide3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beddingSlide3.jpg; sourceTree = "<group>"; };
+		7EBA6A8D1DC23B9200686054 /* beddingSlide4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beddingSlide4.jpg; sourceTree = "<group>"; };
+		7EBA6A8E1DC23B9200686054 /* beddingSlide5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beddingSlide5.jpg; sourceTree = "<group>"; };
+		7EBA6A951DC2487400686054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +265,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EBA6A961DC2487400686054 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +277,7 @@
 			children = (
 				7E1599801DC1018400262AE9 /* WAH Kiosk */,
 				7E15997F1DC1018400262AE9 /* Products */,
+				7EBA6A941DC2487400686054 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,6 +292,7 @@
 		7E1599801DC1018400262AE9 /* WAH Kiosk */ = {
 			isa = PBXGroup;
 			children = (
+				7EBA6A891DC23B9200686054 /* SlideImages */,
 				7E1E932F1DC1F48D0032A1D2 /* EasyPeasy */,
 				7E1599931DC101A400262AE9 /* HUD */,
 				7EAF9C211DC11B7A0009E706 /* Controller */,
@@ -448,6 +463,26 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7EBA6A891DC23B9200686054 /* SlideImages */ = {
+			isa = PBXGroup;
+			children = (
+				7EBA6A8A1DC23B9200686054 /* beddingSlide1.jpg */,
+				7EBA6A8B1DC23B9200686054 /* beddingSlide2.jpg */,
+				7EBA6A8C1DC23B9200686054 /* beddingSlide3.jpg */,
+				7EBA6A8D1DC23B9200686054 /* beddingSlide4.jpg */,
+				7EBA6A8E1DC23B9200686054 /* beddingSlide5.jpg */,
+			);
+			path = SlideImages;
+			sourceTree = "<group>";
+		};
+		7EBA6A941DC2487400686054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EBA6A951DC2487400686054 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -524,7 +559,9 @@
 				7E159A001DC10E8200262AE9 /* uparrow@2x.png in Resources */,
 				7E1599D11DC10E8200262AE9 /* cart.png in Resources */,
 				7E1599D91DC10E8200262AE9 /* confirm@3x.png in Resources */,
+				7EBA6A8F1DC23B9200686054 /* beddingSlide1.jpg in Resources */,
 				7E1599DF1DC10E8200262AE9 /* favicon@3x.png in Resources */,
+				7EBA6A901DC23B9200686054 /* beddingSlide2.jpg in Resources */,
 				7E1E930E1DC1E0E60032A1D2 /* TabBar_category_Selected_23x23_@3x.png in Resources */,
 				7E1E93171DC1E0E60032A1D2 /* TabBar_me_boy_23x23_@2x.png in Resources */,
 				7E1E93191DC1E0E60032A1D2 /* TabBar_me_boy_selected_23x23_@2x.png in Resources */,
@@ -538,6 +575,7 @@
 				7E1E93221DC1E17C0032A1D2 /* cart_toolbar_noti.png in Resources */,
 				7E1599E91DC10E8200262AE9 /* pick_bg.png in Resources */,
 				7E1599CC1DC10E8200262AE9 /* add_friend.png in Resources */,
+				7EBA6A921DC23B9200686054 /* beddingSlide4.jpg in Resources */,
 				7E1599D51DC10E8200262AE9 /* checked@2x.png in Resources */,
 				7EAF9C471DC132740009E706 /* HomeVC.xib in Resources */,
 				7E1E930F1DC1E0E60032A1D2 /* TabBar_gift_23x23_@2x.png in Resources */,
@@ -589,10 +627,12 @@
 				7E1599D21DC10E8200262AE9 /* cart@2x.png in Resources */,
 				7E1E932A1DC1E6EB0032A1D2 /* home_icon_02_off@3x.png in Resources */,
 				7E1599E61DC10E8200262AE9 /* home.png in Resources */,
+				7EBA6A911DC23B9200686054 /* beddingSlide3.jpg in Resources */,
 				7EAF9C511DC139040009E706 /* round.png in Resources */,
 				7E1599871DC1018400262AE9 /* Main.storyboard in Resources */,
 				7E1599E21DC10E8200262AE9 /* goods@3x.png in Resources */,
 				7E1599D61DC10E8200262AE9 /* checked@3x.png in Resources */,
+				7EBA6A931DC23B9200686054 /* beddingSlide5.jpg in Resources */,
 				7E1E931D1DC1E0E60032A1D2 /* TabBar_me_girl_selected_23x23_@2x.png in Resources */,
 				7E1E93261DC1E6E30032A1D2 /* home_icon_02_on@3x.png in Resources */,
 				7E1E931A1DC1E0E60032A1D2 /* TabBar_me_boy_selected_23x23_@3x.png in Resources */,

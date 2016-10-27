@@ -6,9 +6,16 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="WAH_Kiosk" customModuleProvider="target">
             <connections>
+                <outlet property="pageControl" destination="wk3-Ut-WRu" id="aCp-Gk-QDk"/>
+                <outlet property="scrollView" destination="SK3-9V-jdh" id="Jnd-xi-p8z"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -32,7 +39,23 @@
                     </constraints>
                 </view>
                 <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHM-Py-WaF">
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SK3-9V-jdh"/>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="wk3-Ut-WRu">
+                            <color key="pageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="0.9244881466" colorSpace="calibratedRGB"/>
+                        </pageControl>
+                    </subviews>
                     <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="wk3-Ut-WRu" secondAttribute="bottom" id="0nm-sd-sOm"/>
+                        <constraint firstAttribute="trailing" secondItem="SK3-9V-jdh" secondAttribute="trailing" id="Ee5-xL-rsh"/>
+                        <constraint firstAttribute="trailing" secondItem="wk3-Ut-WRu" secondAttribute="trailing" id="ZjR-3N-tUM"/>
+                        <constraint firstItem="SK3-9V-jdh" firstAttribute="leading" secondItem="XHM-Py-WaF" secondAttribute="leading" id="aUA-XO-un5"/>
+                        <constraint firstItem="SK3-9V-jdh" firstAttribute="top" secondItem="XHM-Py-WaF" secondAttribute="top" id="iMz-9B-yeH"/>
+                        <constraint firstItem="wk3-Ut-WRu" firstAttribute="height" secondItem="XHM-Py-WaF" secondAttribute="height" multiplier="0.2" id="jPi-gu-MRk"/>
+                        <constraint firstItem="wk3-Ut-WRu" firstAttribute="leading" secondItem="XHM-Py-WaF" secondAttribute="leading" id="mzl-e1-EU4"/>
+                        <constraint firstAttribute="bottom" secondItem="SK3-9V-jdh" secondAttribute="bottom" id="ulX-Au-xrA"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
