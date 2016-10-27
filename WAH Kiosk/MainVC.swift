@@ -19,10 +19,17 @@ class MainVC: UIViewController {
     @IBOutlet weak var wishlistView: UIView!
     @IBOutlet weak var settingsView: UIView!
     
+    var newsVC = NewsVC(nibName: "NewsVC", bundle: nil)
+    var discountVC = DiscountVC(nibName: "DiscountVC", bundle: nil)
+    var homeVC = HomeVC(nibName: "HomeVC", bundle: nil)
+    var wishlistVC = WishlistVC(nibName: "WishlistVC", bundle: nil)
+    var settingsVC = SettingsVC(nibName: "SettingsVC", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,18 +61,21 @@ class MainVC: UIViewController {
     //MARK: - Button Methods...
     
     @IBAction func onNewsBtn(_ sender: AnyObject) {
+        self.onAddSubController(vc: newsVC)
         self.onTabbarInit()
         
         self.newsView.backgroundColor = UIColor(hexString: "CC0000", alpha: 0.6)
     }
     
     @IBAction func onDiscountBtn(_ sender: AnyObject) {
+        self.onAddSubController(vc: discountVC)
         self.onTabbarInit()
         
         self.discountView.backgroundColor = UIColor(hexString: "CC0000", alpha: 0.6)
     }
     
     @IBAction func onHomeBtn(_ sender: AnyObject) {
+        self.onAddSubController(vc: homeVC)
         self.onTabbarInit()
         
         self.roundImageView.tintColor = UIColor(hexString: "CC0000", alpha: 0.6)
@@ -73,14 +83,36 @@ class MainVC: UIViewController {
     }
 
     @IBAction func onSettingsBtn(_ sender: AnyObject) {
+        self.onAddSubController(vc: settingsVC)
         self.onTabbarInit()
         
         self.settingsView.backgroundColor = UIColor(hexString: "CC0000", alpha: 0.6)
     }
     
     @IBAction func onWishlistBtn(_ sender: AnyObject) {
+        self.onAddSubController(vc: wishlistVC)
         self.onTabbarInit()
         
         self.wishlistView.backgroundColor = UIColor(hexString: "CC0000", alpha: 0.6)
+    }
+    
+    func onAddSubController(vc: UIViewController) {
+        //remove...
+        vc.removeFromParentViewController()
+        vc.view.removeFromSuperview()
+        
+        //add...
+        addChildViewController(vc)
+        contentView.addSubview(vc.view)
+//        newsVC.view <- [Top(0), b]
+        
+        vc.view <- [
+            Top(0).to(contentView),
+            Bottom(0).to(contentView),
+            Left(0).to(contentView),
+            Right(0).to(contentView)
+        ]
+        
+        vc.didMove(toParentViewController: self)
     }
 }

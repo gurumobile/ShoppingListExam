@@ -330,23 +330,6 @@
             </objects>
             <point key="canvasLocation" x="-220" y="-81.409295352323838"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="TOA-bm-Q2B">
-            <objects>
-                <viewController id="pFk-hf-BAB" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="IPJ-9y-OGm"/>
-                        <viewControllerLayoutGuide type="bottom" id="BTF-Ve-gNF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FHO-CB-nQT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LSN-te-n5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="round.png" width="140" height="100"/>
