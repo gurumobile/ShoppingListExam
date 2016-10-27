@@ -6,6 +6,11 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--MainVC-->
         <scene sceneID="E4V-ve-Hfl">
@@ -133,7 +138,16 @@
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjX-Ql-iRL">
                                                 <subviews>
                                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnG-Id-BX6">
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="tX2-yK-Etu"/>
+                                                        </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="tX2-yK-Etu" firstAttribute="centerX" secondItem="gnG-Id-BX6" secondAttribute="centerX" id="LIb-go-g11"/>
+                                                            <constraint firstItem="tX2-yK-Etu" firstAttribute="width" secondItem="gnG-Id-BX6" secondAttribute="width" multiplier="0.7" id="VpS-zk-C4z"/>
+                                                            <constraint firstAttribute="bottom" secondItem="tX2-yK-Etu" secondAttribute="bottom" id="cu3-Jx-Wp7"/>
+                                                            <constraint firstItem="tX2-yK-Etu" firstAttribute="top" secondItem="gnG-Id-BX6" secondAttribute="top" id="rw6-xd-rhj"/>
+                                                        </constraints>
                                                     </view>
                                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcH-GO-6nO">
                                                         <subviews>
@@ -332,6 +346,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="home.png" width="30" height="30"/>
         <image name="round.png" width="140" height="100"/>
     </resources>
 </document>

@@ -10,8 +10,13 @@ import UIKit
 
 class HomeVC: UIViewController, UIScrollViewDelegate {
     
+    @IBOutlet var mainView: UIView!
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
+    
+    @IBOutlet weak var mattMainView: UIView!
+    @IBOutlet weak var mattSubView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +32,20 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        mainView.alpha = 0.0
         self.onInitialize()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //Center Button Radius...
+        mattMainView.layer.cornerRadius = mattMainView.frame.size.width / 2
+        mattSubView.layer.cornerRadius = mattSubView.frame.size.width / 2
+        mattMainView.layer.borderWidth = 24.0
+        mattMainView.layer.borderColor = UIColor.white.cgColor
+        
+        mainView.alpha = 1.0
     }
     
     //MARK: - Initialize...
@@ -78,4 +96,33 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
         // Change the indicator
         self.pageControl.currentPage = Int(currentPage);
     }
+    
+    //MARK: - Category Actions...
+    @IBAction func onBeddingBtn(_ sender: AnyObject) {
+        
+    }
+    
+    @IBAction func onBathBtn(_ sender: AnyObject) {
+        
+    }
+    
+    @IBAction func onHousewareBtn(_ sender: AnyObject) {
+        
+    }
+    
+    @IBAction func onSpecialBtn(_ sender: AnyObject) {
+        
+    }
+    
+    @IBAction func onMattressBtn(_ sender: AnyObject) {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
