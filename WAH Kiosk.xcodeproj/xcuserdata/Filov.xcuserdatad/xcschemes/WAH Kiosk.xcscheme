@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+               BlueprintIdentifier = "7E2865091DC2821300E84EC9"
                BuildableName = "WAH Kiosk.app"
                BlueprintName = "WAH Kiosk"
                ReferencedContainer = "container:WAH Kiosk.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+            BlueprintIdentifier = "7E2865091DC2821300E84EC9"
             BuildableName = "WAH Kiosk.app"
             BlueprintName = "WAH Kiosk"
             ReferencedContainer = "container:WAH Kiosk.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+            BlueprintIdentifier = "7E2865091DC2821300E84EC9"
             BuildableName = "WAH Kiosk.app"
             BlueprintName = "WAH Kiosk"
             ReferencedContainer = "container:WAH Kiosk.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E15997D1DC1018400262AE9"
+            BlueprintIdentifier = "7E2865091DC2821300E84EC9"
             BuildableName = "WAH Kiosk.app"
             BlueprintName = "WAH Kiosk"
             ReferencedContainer = "container:WAH Kiosk.xcodeproj">
