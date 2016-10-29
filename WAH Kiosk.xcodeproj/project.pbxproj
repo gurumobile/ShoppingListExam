@@ -56,6 +56,26 @@
 		7E2865691DC283C300E84EC9 /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2865431DC283C300E84EC9 /* twitter.jpg */; };
 		7E28656A1DC283C300E84EC9 /* WAH_GE_Banner2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2865441DC283C300E84EC9 /* WAH_GE_Banner2.jpg */; };
 		7E28656B1DC283C300E84EC9 /* WAH_Simmons_Banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E2865451DC283C300E84EC9 /* WAH_Simmons_Banner.jpg */; };
+		7E3647D41DC418B600AB3B5D /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C01DC418B600AB3B5D /* Lato-Black.ttf */; };
+		7E3647D51DC418B600AB3B5D /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C11DC418B600AB3B5D /* Lato-BlackItalic.ttf */; };
+		7E3647D61DC418B600AB3B5D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C21DC418B600AB3B5D /* Lato-Bold.ttf */; };
+		7E3647D71DC418B600AB3B5D /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C31DC418B600AB3B5D /* Lato-BoldItalic.ttf */; };
+		7E3647D81DC418B600AB3B5D /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C41DC418B600AB3B5D /* Lato-Hairline.ttf */; };
+		7E3647D91DC418B600AB3B5D /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C51DC418B600AB3B5D /* Lato-HairlineItalic.ttf */; };
+		7E3647DA1DC418B600AB3B5D /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C61DC418B600AB3B5D /* Lato-Heavy.ttf */; };
+		7E3647DB1DC418B600AB3B5D /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C71DC418B600AB3B5D /* Lato-HeavyItalic.ttf */; };
+		7E3647DC1DC418B600AB3B5D /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C81DC418B600AB3B5D /* Lato-Italic.ttf */; };
+		7E3647DD1DC418B600AB3B5D /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647C91DC418B600AB3B5D /* Lato-Light.ttf */; };
+		7E3647DE1DC418B600AB3B5D /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647CA1DC418B600AB3B5D /* Lato-LightItalic.ttf */; };
+		7E3647DF1DC418B600AB3B5D /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647CB1DC418B600AB3B5D /* Lato-Medium.ttf */; };
+		7E3647E01DC418B600AB3B5D /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647CC1DC418B600AB3B5D /* Lato-MediumItalic.ttf */; };
+		7E3647E11DC418B600AB3B5D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647CD1DC418B600AB3B5D /* Lato-Regular.ttf */; };
+		7E3647E21DC418B600AB3B5D /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647CE1DC418B600AB3B5D /* Lato-Semibold.ttf */; };
+		7E3647E31DC418B600AB3B5D /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647CF1DC418B600AB3B5D /* Lato-SemiboldItalic.ttf */; };
+		7E3647E41DC418B600AB3B5D /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647D01DC418B600AB3B5D /* Lato-Thin.ttf */; };
+		7E3647E51DC418B600AB3B5D /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647D11DC418B600AB3B5D /* Lato-ThinItalic.ttf */; };
+		7E3647E61DC418B600AB3B5D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647D21DC418B600AB3B5D /* OFL.txt */; };
+		7E3647E71DC418B600AB3B5D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E3647D31DC418B600AB3B5D /* README.txt */; };
 		7EA624591DC3540A00452B21 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA624581DC3540A00452B21 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +131,26 @@
 		7E2865431DC283C300E84EC9 /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
 		7E2865441DC283C300E84EC9 /* WAH_GE_Banner2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WAH_GE_Banner2.jpg; sourceTree = "<group>"; };
 		7E2865451DC283C300E84EC9 /* WAH_Simmons_Banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WAH_Simmons_Banner.jpg; sourceTree = "<group>"; };
+		7E3647C01DC418B600AB3B5D /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		7E3647C11DC418B600AB3B5D /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7E3647C21DC418B600AB3B5D /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		7E3647C31DC418B600AB3B5D /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7E3647C41DC418B600AB3B5D /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		7E3647C51DC418B600AB3B5D /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		7E3647C61DC418B600AB3B5D /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		7E3647C71DC418B600AB3B5D /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		7E3647C81DC418B600AB3B5D /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		7E3647C91DC418B600AB3B5D /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		7E3647CA1DC418B600AB3B5D /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		7E3647CB1DC418B600AB3B5D /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		7E3647CC1DC418B600AB3B5D /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7E3647CD1DC418B600AB3B5D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		7E3647CE1DC418B600AB3B5D /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		7E3647CF1DC418B600AB3B5D /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		7E3647D01DC418B600AB3B5D /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		7E3647D11DC418B600AB3B5D /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7E3647D21DC418B600AB3B5D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		7E3647D31DC418B600AB3B5D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		7EA624581DC3540A00452B21 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +184,7 @@
 		7E28650C1DC2821700E84EC9 /* WAH Kiosk */ = {
 			isa = PBXGroup;
 			children = (
-				7E28651F1DC283C300E84EC9 /* Images */,
+				7E3647E81DC418B800AB3B5D /* Resources */,
 				7EA624551DC353F300452B21 /* Controller */,
 				7EA624561DC353F300452B21 /* Model */,
 				7EA624571DC353F300452B21 /* View */,
@@ -207,6 +247,42 @@
 				7E2865451DC283C300E84EC9 /* WAH_Simmons_Banner.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		7E3647BF1DC418B500AB3B5D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E3647C01DC418B600AB3B5D /* Lato-Black.ttf */,
+				7E3647C11DC418B600AB3B5D /* Lato-BlackItalic.ttf */,
+				7E3647C21DC418B600AB3B5D /* Lato-Bold.ttf */,
+				7E3647C31DC418B600AB3B5D /* Lato-BoldItalic.ttf */,
+				7E3647C41DC418B600AB3B5D /* Lato-Hairline.ttf */,
+				7E3647C51DC418B600AB3B5D /* Lato-HairlineItalic.ttf */,
+				7E3647C61DC418B600AB3B5D /* Lato-Heavy.ttf */,
+				7E3647C71DC418B600AB3B5D /* Lato-HeavyItalic.ttf */,
+				7E3647C81DC418B600AB3B5D /* Lato-Italic.ttf */,
+				7E3647C91DC418B600AB3B5D /* Lato-Light.ttf */,
+				7E3647CA1DC418B600AB3B5D /* Lato-LightItalic.ttf */,
+				7E3647CB1DC418B600AB3B5D /* Lato-Medium.ttf */,
+				7E3647CC1DC418B600AB3B5D /* Lato-MediumItalic.ttf */,
+				7E3647CD1DC418B600AB3B5D /* Lato-Regular.ttf */,
+				7E3647CE1DC418B600AB3B5D /* Lato-Semibold.ttf */,
+				7E3647CF1DC418B600AB3B5D /* Lato-SemiboldItalic.ttf */,
+				7E3647D01DC418B600AB3B5D /* Lato-Thin.ttf */,
+				7E3647D11DC418B600AB3B5D /* Lato-ThinItalic.ttf */,
+				7E3647D21DC418B600AB3B5D /* OFL.txt */,
+				7E3647D31DC418B600AB3B5D /* README.txt */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		7E3647E81DC418B800AB3B5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E3647BF1DC418B500AB3B5D /* fonts */,
+				7E28651F1DC283C300E84EC9 /* Images */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7EA624551DC353F300452B21 /* Controller */ = {
@@ -297,35 +373,51 @@
 				7E0C61091DC3B409000DCEF1 /* beddingBtn.png in Resources */,
 				7E0C610B1DC3B409000DCEF1 /* homeBtn.png in Resources */,
 				7E2865481DC283C300E84EC9 /* banner1.jpg in Resources */,
+				7E3647E51DC418B600AB3B5D /* Lato-ThinItalic.ttf in Resources */,
+				7E3647E11DC418B600AB3B5D /* Lato-Regular.ttf in Resources */,
 				7E2865631DC283C300E84EC9 /* simmons_cape-breton-plushnew.jpg in Resources */,
 				7E2865581DC283C300E84EC9 /* facebook.jpg in Resources */,
 				7E2865671DC283C300E84EC9 /* special_3.png in Resources */,
+				7E3647DA1DC418B600AB3B5D /* Lato-Heavy.ttf in Resources */,
+				7E3647E41DC418B600AB3B5D /* Lato-Thin.ttf in Resources */,
 				7E0C610E1DC3B409000DCEF1 /* specialsBtn.png in Resources */,
 				7E28654B1DC283C300E84EC9 /* bath.png in Resources */,
+				7E3647E61DC418B600AB3B5D /* OFL.txt in Resources */,
+				7E3647D51DC418B600AB3B5D /* Lato-BlackItalic.ttf in Resources */,
+				7E3647E71DC418B600AB3B5D /* README.txt in Resources */,
 				7E28654C1DC283C300E84EC9 /* bath_black.gif in Resources */,
 				7E28655A1DC283C300E84EC9 /* google.jpg in Resources */,
 				7E28655E1DC283C300E84EC9 /* phone_icon.jpg in Resources */,
+				7E3647DE1DC418B600AB3B5D /* Lato-LightItalic.ttf in Resources */,
 				7E2865601DC283C300E84EC9 /* shopbut.png in Resources */,
 				7E2865661DC283C300E84EC9 /* small_chat_bubble.png in Resources */,
+				7E3647E31DC418B600AB3B5D /* Lato-SemiboldItalic.ttf in Resources */,
 				7E2865541DC283C300E84EC9 /* button1.png in Resources */,
 				7E2865571DC283C300E84EC9 /* Dinnerware_248x248_ws.jpg in Resources */,
 				7E2865501DC283C300E84EC9 /* bed_blue.gif in Resources */,
 				7E28654D1DC283C300E84EC9 /* bath_blue.gif in Resources */,
 				7E2865691DC283C300E84EC9 /* twitter.jpg in Resources */,
+				7E3647DF1DC418B600AB3B5D /* Lato-Medium.ttf in Resources */,
 				7E28656A1DC283C300E84EC9 /* WAH_GE_Banner2.jpg in Resources */,
 				7E28655C1DC283C300E84EC9 /* img.png in Resources */,
 				7E2865531DC283C300E84EC9 /* border.png in Resources */,
 				7E2865521DC283C300E84EC9 /* blwync_1000x1000_ws.jpg in Resources */,
 				7E28654F1DC283C300E84EC9 /* bed_black.gif in Resources */,
+				7E3647D61DC418B600AB3B5D /* Lato-Bold.ttf in Resources */,
 				7E2865471DC283C300E84EC9 /* arr.png in Resources */,
+				7E3647D41DC418B600AB3B5D /* Lato-Black.ttf in Resources */,
 				7E2865611DC283C300E84EC9 /* Simmons.jpg in Resources */,
+				7E3647D91DC418B600AB3B5D /* Lato-HairlineItalic.ttf in Resources */,
 				7E28654A1DC283C300E84EC9 /* banner3.jpg in Resources */,
+				7E3647DD1DC418B600AB3B5D /* Lato-Light.ttf in Resources */,
 				7E2865561DC283C300E84EC9 /* CategoryToaster_248x248_ws.jpg in Resources */,
 				7E0C610C1DC3B409000DCEF1 /* housewaresBtn.png in Resources */,
 				7E28655B1DC283C300E84EC9 /* house_3.png in Resources */,
 				7E2865621DC283C300E84EC9 /* simmons_cape-breton-pillow-topnew.jpg in Resources */,
 				7E2865181DC2821700E84EC9 /* LaunchScreen.storyboard in Resources */,
+				7E3647DB1DC418B600AB3B5D /* Lato-HeavyItalic.ttf in Resources */,
 				7E2865151DC2821700E84EC9 /* Assets.xcassets in Resources */,
+				7E3647E01DC418B600AB3B5D /* Lato-MediumItalic.ttf in Resources */,
 				7E0C610D1DC3B409000DCEF1 /* mattressBtn.png in Resources */,
 				7E2865551DC283C300E84EC9 /* button2.png in Resources */,
 				7E28655D1DC283C300E84EC9 /* logo.jpg in Resources */,
@@ -333,11 +425,15 @@
 				7E2865591DC283C300E84EC9 /* Glassware_Category2_248x248_ws.jpg in Resources */,
 				7E28654E1DC283C300E84EC9 /* bed.png in Resources */,
 				7E2865651DC283C300E84EC9 /* slider-image01.jpg in Resources */,
+				7E3647DC1DC418B600AB3B5D /* Lato-Italic.ttf in Resources */,
 				7E0C61081DC3B409000DCEF1 /* bathBtn.png in Resources */,
+				7E3647E21DC418B600AB3B5D /* Lato-Semibold.ttf in Resources */,
 				7E2865491DC283C300E84EC9 /* banner2.jpg in Resources */,
 				7E2865641DC283C300E84EC9 /* simmons_sutherland-plushnew.jpg in Resources */,
+				7E3647D81DC418B600AB3B5D /* Lato-Hairline.ttf in Resources */,
 				7E28656B1DC283C300E84EC9 /* WAH_Simmons_Banner.jpg in Resources */,
 				7E2865131DC2821700E84EC9 /* Main.storyboard in Resources */,
+				7E3647D71DC418B600AB3B5D /* Lato-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
