@@ -52,9 +52,20 @@ class MainVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        _ = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(MainVC.imageSlideAction), userInfo: nil, repeats: true);
+    }
+    
     //MAKR: - PageControl Fire Method...
     func didChangePageControlValue() {
         tutorialPageViewController?.scrollToViewController(index: pageControl.currentPage)
+    }
+    
+    //MARK: - Image Slide Action...
+    func imageSlideAction() {
+        tutorialPageViewController?.scrollToNextViewController()
     }
     
     //MARK: - Main Category Actions in header...
